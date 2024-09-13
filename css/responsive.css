@@ -1,0 +1,127 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  .nav_items {
+    margin-left: -23px;
+  }
+  .banner_textarea {
+    padding-top: 200px;
+  }
+  #banner {
+    padding: 75px 0;
+  }
+  .banner_textarea h1 span {
+    font-size: 40px;
+  }
+  .banner_textarea h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .banner_textarea h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+  }
+  .banner_textarea {
+    margin-top: 20px;
+  }
+  #about {
+    margin-top: 60px;
+  }
+  #about .about_image img {
+    width: 23%;
+  }
+  .about_textarea h3 {
+    letter-spacing: 0px;
+    margin-top: 13px;
+  }
+  .about_textarea h2 {
+    font-size: 15px;
+    width: auto;
+  }
+  .about_textarea p {
+    font-size: 15px;
+    width: 20%;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .about_textarea a {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .about_textarea {
+    margin-left: 0px;
+  }
+
+  #bromo {
+    margin-top: 80px;
+  }
+  #bromo .bromo_textarea {
+    text-align: left;
+  }
+  #bromo .bromoimage {
+    height: 400px;
+    width: 23%;
+    justify-content: left;
+  }
+  .bromo_textarea h2 {
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 14px;
+    width: 98%;
+    /* margin: 0 auto; */
+  }
+  .bromo_textarea p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #culture {
+    margin-top: 60px;
+  }
+  .culture_image img {
+    width: 23%;
+  }
+  .culture_textarea h3 {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .culture_textarea h2 {
+    font-size: 26px;
+    width: 20%;
+    margin-bottom: 19px;
+  }
+  .culture_textarea p {
+    font-size: 13px;
+    margin-bottom: 13px;
+    width: 23%;
+  }
+  .culture_textarea {
+    margin-top: 20px;
+  }
+  #footer {
+    margin-top: 90px;
+  }
+  .footer_topRight a:last-child {
+    font-size: 17px;
+    padding: 10px 8px;
+  }
+  .footer_topRight a {
+    font-size: 20px;
+  }
+  .footer_top {
+    margin-bottom: 40px;
+  }
+  .footer_bottom_left h3 {
+    font-size: 30px;
+    width: 24%;
+  }
+}
+

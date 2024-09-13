@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background: #000;
+}
+
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.container button span{
+    color: white !important;
+}
+/* !================= navbar start ================ */
+nav{
+    position: absolute !important;
+    width: 100%;
+}
+/* .logo{
+    z-index: 100;
+}
+.navWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_items ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+.nav_items ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+    */
+    
+.nav_items a:hover{
+    color: black !important;
+}
+
+/* !================= navbar end ================ */
+
+
+
+/* !================= banner start ================ */
+#banner{
+    padding: 462px 0;
+    background: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_textarea h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: #FFC178;
+    text-transform: uppercase;
+    margin-bottom: 37.78px;
+}
+.banner_textarea h1{
+    font-size: 88px;
+    color: #fff;
+    line-height: 100px;
+    font-weight: 400;
+}
+.banner_textarea h1 span{
+    font-weight: 700;
+    font-size: 96px;
+}
+/* !================= banner end ================ */
+
+
+/* !================= about start ================ */
+#about{
+    margin-top: 286px;
+}
+.aboutWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23px;
+}
+.about_textarea{
+    margin-left: 23px;
+}
+.about_textarea h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #fbd784;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    /* margin-top: 78px; */
+}
+.about_textarea h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    width: 496px;
+    margin-bottom: 13px;
+}
+.about_textarea p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    
+}
+.about_textarea a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fbd784;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 66px;
+    display: inline-block;
+}
+#about .about_image img{
+    width: 636px;
+}
+/* !================= about end ================ */
+
+
+/* !================= bromo start ================ */
+#bromo{
+    margin-top: 295px;
+}
+#bromo .bromoimage{
+    background: url('../images/bromo.jpg') no-repeat center;
+    height: 965px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.bromo_textarea{
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.bromo_textarea h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #fbd784;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.bromo_textarea h2{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 14px;
+    width: 932px;
+    margin: 0 auto;
+}
+.bromo_textarea p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 893px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+.bromo_textarea a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fbd784;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 32.92px;
+}
+/* !================= bromo end ================ */
+
+
+
+/* !================= culture start ================ */
+#culture{
+    margin-top: 295px;
+}
+.cultureWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.culture_textarea h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #fbd784;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.culture_textarea h2{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    width: 663px;
+    margin-bottom: 19px;
+}
+.culture_textarea p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 47px;
+    width: 655px;
+}
+.culture_textarea a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fbd784;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* !================= culture end ================ */
+
+
+/* !================= footer start ================ */
+#footer{
+    margin-top: 190px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_topRight a{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer_topRight a:last-child{
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    padding: 18px 67px;
+    background: #ffa343;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.footer_bottom_left h3{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: #fff;
+    width: 405px;
+    margin-bottom: 49px;
+}
+.footer_bottom_left a{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 34px;
+    display: inline-block ;
+}
+.fa-brands{
+    color: white;
+    margin-right: 29px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom_right{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 65px;
+}
+.service h5{
+    font-size: 20px;
+    color: #ffd1a0;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    margin-bottom: 12px;
+}
+.about h5{
+    font-size: 20px;
+    color: #ffd1a0;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    margin-bottom: 12px;
+}
+.help h5{
+    font-size: 20px;
+    color: #ffd1a0;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    margin-bottom: 12px;
+}
+.service ul li a{
+    font-size: 19px;
+    font-weight: 
+    400;
+    letter-spacing: -0.2px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 9px;
+    list-style: none;
+}
+.about ul li a{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 9px;
+    list-style: none;
+}
+.help ul li a{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 9px;
+    list-style: none;
+}
+.copy_right p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    margin: 153px 0 30px 0;
+}
+.footer_items{
+    margin-top: 80px;
+}
+/* !================= footer end ================ */
+
+
+
